@@ -21,9 +21,9 @@ if __name__ == '__main__':
     init_phy=time()
     init_eye=time()
 
-    water_secs=5
-    eye_secs=10
-    phy_secs=20
+    water_secs=20
+    eye_secs=30
+    phy_secs=60
     while True:
         if time() - init_water > water_secs:
             print("Enter drank to stop the music")
